@@ -1,0 +1,537 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    margin: 10px;
+}
+nav input{
+    margin-top: 20px;
+    border: none;
+    border: 2px solid gold;
+    border-bottom-left-radius: 10px;
+    height: 30px;
+    margin-left: 25px;
+    width: 14%;
+    margin-right: -20px;
+    background-color: transparent;
+}
+nav  button{
+    height: 34px;
+    width: 7%;
+    border: none;
+    background-color: gold;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    padding-left: -90px;
+}nav button:hover{
+    background-color: black;
+    color: gold;
+}
+nav ul{
+    display: flex;
+    margin-left: 30%;
+    margin-top: -27px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}nav ul li a::after{
+    height: 4px;
+    content: '';
+    width: 0%;
+    border-radius: 10px;
+    background-color: gold;
+    display: block;
+}nav ul li a:hover:after{
+    width: 55%;
+}nav ul li a:hover{
+    color: rgb(117, 109, 60);
+    font-weight: bold;
+}
+.two{
+    margin-left: 80%;
+    margin-top: -27px; 
+    display: flex;
+}
+.two .pic{
+    height: 30px;
+    width: 30px;
+    background-image: url(images/mage1\ \(8\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid gold;
+    border-radius: 50%;
+}
+.two button{
+    height: 34px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    background-color: gold;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 14px;
+    margin-left: 10px;
+}.two button:hover{
+    background-color: black;
+    color: gold;
+}
+
+/* ...............section2............ */
+.main{
+    background-image: url(images/The-Kings-Man-poster.jpg.webp);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+.main .div{
+    color: white;
+    padding: 40px;
+}
+.main .div p{
+    margin-top: 10px;
+}
+.main .div h1{
+    font-size: 50px;
+}
+.main .div button{
+    background-color: gold;
+    height: 35px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+.main .div button:hover{
+    background-color: black;
+    color: gold;
+}
+/* ................section3.......... */
+.chin{
+    height: 70px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    border: 4px solid gold;
+    background-color: rgb(247, 224, 166);
+    box-shadow: 0px 4px 6px 1px rgba(233, 250, 171, 0.979);
+}
+.chin ul {
+    margin-top: 20px;
+    margin-left: 80px;
+    display: flex;
+}.chin ul li{
+    list-style: none;
+}
+.chin ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    align-items: center;
+    color: rgb(117, 109, 60);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.chin ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+/* .......section4............. */
+h5{
+    margin-top: 80px;
+    margin-left: 10%;
+}
+.flex{
+    display: flex;
+    margin-top: 10px;
+}
+.flex .first{
+    height: 400px;
+    width: 20%;
+    margin-left: 138px;
+    background-image: url(images/\ mage1\ \(1\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex .first .second{
+    border-top: none;
+    border-right: 2px solid gold;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid gold;
+    height: 100px;
+    width: 99%;
+    background-color: rgb(247, 224, 166);
+    margin-top: 140%;
+}
+.flex .first .second h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.flex .first .second p{
+    padding-left: 10px;
+}
+.flex .first .second .pot{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.flex .firsto{
+    height: 400px;
+    width: 20%;
+    margin-left: 138px;
+    background-image: url(images/\ mage1\ \(4\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex .firsto .second{
+    border-top: none;
+    border-right: 2px solid gold;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid gold;
+    height: 100px;
+    width: 99%;
+    background-color: rgb(247, 224, 166);
+    margin-top: 140%;
+}
+.flex .firsto .second h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.flex .firsto .second p{
+    padding-left: 10px;
+}
+.flex .firsto .second .pot{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.flex .firsty{
+    height: 400px;
+    width: 20%;
+    margin-left: 138px;
+    background-image: url(images/\ mage1\ \(3\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex .firsty .second{
+    border-top: none;
+    border-right: 2px solid gold;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid gold;
+    height: 100px;
+    width: 99%;
+    background-color: rgb(247, 224, 166);
+    margin-top: 140%;
+}
+.flex .firsty .second h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.flex .firsty .second p{
+    padding-left: 10px;
+}
+.flex .firsty .second .pot{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* .................sub..... */
+.flu{
+    display: flex;
+    margin-top: 10%;
+}
+.flu .first{
+    height: 400px;
+    width: 20%;
+    margin-left: 138px;
+    background-image: url(images/\ mage1\ \(5\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flu .first .second{
+    border-top: none;
+    border-right: 2px solid gold;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid gold;
+    height: 100px;
+    width: 99%;
+    background-color: rgb(247, 224, 166);
+    margin-top: 140%;
+}
+.flu .first .second h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.flu .first .second p{
+    padding-left: 10px;
+}
+.flu .first .second .pot{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.flu .firsto{
+    height: 400px;
+    width: 20%;
+    margin-left: 138px;
+    background-image: url(images/\ mage1\ \(6\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flu .firsto .second{
+    border-top: none;
+    border-right: 2px solid gold;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid gold;
+    height: 100px;
+    width: 99%;
+    background-color: rgb(247, 224, 166);
+    margin-top: 140%;
+}
+.flu .firsto .second h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.flu .firsto .second p{
+    padding-left: 10px;
+}
+.flu .firsto .second .pot{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.flu .firsty{
+    height: 400px;
+    width: 20%;
+    margin-left: 138px;
+    background-image: url(images/\ mage1\ \(7\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flu .firsty .second{
+    border-top: none;
+    border-right: 2px solid gold;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid gold;
+    height: 100px;
+    width: 99%;
+    background-color: rgb(247, 224, 166);
+    margin-top: 140%;
+}
+.flu .firsty .second h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.flu .firsty .second p{
+    padding-left: 10px;
+}
+.flu .firsty .second .pot{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+/* ................responsiveness...... */
+@media (max-width: 627px){
+    nav input{
+        margin-top: -20px;
+        border: none;
+        border: 1px solid gold;
+        height: 2%;
+        margin-left: -5px;
+        width: 17%;
+        font-size: 8px;
+        margin-right: -20px;
+        background-color: transparent;
+    }
+    nav  button{
+        height: 15px;
+        width: 10%;
+        border: none;
+        background-color: gold;
+        color: white;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    nav ul li{
+        list-style: none;
+        margin-right: 10px;
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 10px;
+    }nav ul li a::after{
+        height: 4px;
+        content: '';
+        width: 0%;
+        border-radius: 10px;
+        background-color: gold;
+        display: block;
+    }
+    .two{
+        margin-left: 82%;
+        margin-top: -20px; 
+        display: flex;
+    }
+    .two .pic{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    .two button{
+        height: 20px;
+        width: 60px;
+        border: none;
+        cursor: pointer;
+        background-color: gold;
+        color: white;
+        font-size: 10px;
+        border-radius: 10px;
+        margin-left: 5px;
+    }
+
+    /* ...............section2............ */
+.main{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+.main .div p{
+    margin-top: 5px;
+}
+.main .div h1{
+    font-size: 40px;
+}
+.main .div button{
+    height: 25px;
+    width: 100px;
+    font-size: 10px;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+/* ................section3.......... */
+.chin{
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.chin ul {
+    margin-top: 10px;
+    margin-left: 1px;
+}
+.chin ul li a{
+    margin-left: 4px;
+    font-size: 10px;
+}
+
+/* .......section4............. */
+h5{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.flex{
+    display: flex;
+    margin-top: 10px;
+}
+.flex .first{
+    height: 400px;
+    width: 35%;
+    margin-left: -5px;
+}
+.flex .first .second{
+    height: 100px;
+    width: 99%;
+    margin-top: 248%;
+}
+
+.flex .firsto{
+    height: 400px;
+    width: 35%;
+    margin-left: 10px;
+    background-image: url(images/\ mage1\ \(4\).jfif);
+}
+.flex .firsto .second{
+    height: 100px;
+    width: 99%;
+    margin-top: 248%;
+}
+
+.flex .firsty{
+    height: 400px;
+    width: 35%;
+    margin-left: 10px;
+    background-image: url(images/\ mage1\ \(3\).jfif);
+}
+.flex .firsty .second{
+    height: 100px;
+    width: 99%;
+    margin-top: 248%;
+}
+
+
+/* .................sub..... */
+.flu{
+    display: flex;
+    margin-top: 25%;
+}
+.flu .first{
+    height: 400px;
+    width: 35%;
+    margin-left: -5px;
+}
+.flu .first .second{
+    height: 100px;
+    width: 99%;
+    margin-top: 248%;
+}
+
+.flu .firsto{
+    height: 400px;
+    width: 35%;
+    margin-left: 10px;
+    background-image: url(images/\ mage1\ \(6\).jfif);
+}
+.flu .firsto .second{
+    height: 100px;
+    width: 99%;
+    margin-top: 248%;
+}
+
+.flu .firsty{
+    height: 400px;
+    width: 35%;
+    margin-left: 10px;
+    background-image: url(images/\ mage1\ \(7\).jfif);
+}
+.flu .firsty .second{
+    height: 100px;
+    width: 99%;
+    margin-top: 248%;
+}
+.flu .firsty .second h4{
+   font-size: 10px;
+}
+}
